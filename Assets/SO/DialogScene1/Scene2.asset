@@ -1,0 +1,333 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad63281a002ea1e488eed84a1bb6e643, type: 3}
+  m_Name: Scene2
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  sceneId: 
+  sceneDescription: 
+  lines:
+  - character: {fileID: 0}
+    speakerNameOverride: 
+    dialogueText: 'Layar menampilkan background Ruang Kelas Tono yang agak kusam,
+      meja-meja penuh coretan. SFX: Suara riuh murid kelas bercakap-cakap.'
+    isThought: 0
+    expression: 
+    backgroundOverride: {fileID: 0}
+    conditionKey: 
+    conditionValue: 
+    choices: []
+  - character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
+    speakerNameOverride: 
+    dialogueText: Sprite Tono Muncul
+    isThought: 0
+    expression: 
+    backgroundOverride: {fileID: 0}
+    conditionKey: 
+    conditionValue: 
+    choices: []
+  - character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
+    speakerNameOverride: Tono
+    dialogueText: ( Kelas ini masih sepi..)
+    isThought: 1
+    expression: 
+    backgroundOverride: {fileID: 0}
+    conditionKey: 
+    conditionValue: 
+    choices: []
+  - character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
+    speakerNameOverride: Tono
+    dialogueText: ( Padahal di lorong rame, sepertinya mereka sengaja telat masuk
+      )
+    isThought: 1
+    expression: 
+    backgroundOverride: {fileID: 0}
+    conditionKey: 
+    conditionValue: 
+    choices: []
+  - character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
+    speakerNameOverride: Tono
+    dialogueText: ( Eh.. Ada orang di pojokan )
+    isThought: 0
+    expression: 
+    backgroundOverride: {fileID: 0}
+    conditionKey: 
+    conditionValue: 
+    choices: []
+  - character: {fileID: 0}
+    speakerNameOverride: 
+    dialogueText: Sprite Tono Hilang
+    isThought: 0
+    expression: 
+    backgroundOverride: {fileID: 0}
+    conditionKey: 
+    conditionValue: 
+    choices: []
+  - character: {fileID: 0}
+    speakerNameOverride: 
+    dialogueText: Tono berjalan ke meja pojok belakang. Disitu, duduk seorang anak
+      laki-laki berkacamata yang sedang menunduk membaca buku.
+    isThought: 0
+    expression: 
+    backgroundOverride: {fileID: 0}
+    conditionKey: 
+    conditionValue: 
+    choices: []
+  - character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
+    speakerNameOverride: Tono
+    dialogueText: ' Anu.. permisi, disini kosong ya? Boleh aku duduk disini?'
+    isThought: 0
+    expression: 
+    backgroundOverride: {fileID: 0}
+    conditionKey: 
+    conditionValue: 
+    choices: []
+  - character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
+    speakerNameOverride: 
+    dialogueText: Eh.. B-boleh kok, silakan..
+    isThought: 0
+    expression: 
+    backgroundOverride: {fileID: 0}
+    conditionKey: 
+    conditionValue: 
+    choices: []
+  - character: {fileID: 0}
+    speakerNameOverride: 
+    dialogueText: Sprite TONO dan RADIT muncul
+    isThought: 0
+    expression: 
+    backgroundOverride: {fileID: 0}
+    conditionKey: 
+    conditionValue: 
+    choices: []
+  - character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
+    speakerNameOverride: Tono
+    dialogueText: Terima kasih. Namaku Tono.
+    isThought: 0
+    expression: 
+    backgroundOverride: {fileID: 0}
+    conditionKey: 
+    conditionValue: 
+    choices: []
+  - character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
+    speakerNameOverride: Radit
+    dialogueText: Aku... Radit. Kamu... murid baru yang tadi di gerbang, kan?
+    isThought: 0
+    expression: 
+    backgroundOverride: {fileID: 0}
+    conditionKey: 
+    conditionValue: 
+    choices: []
+  - character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
+    speakerNameOverride: Radit
+    dialogueText: Kamu lihat?
+    isThought: 0
+    expression: 
+    backgroundOverride: {fileID: 0}
+    conditionKey: 
+    conditionValue: 
+    choices: []
+  - character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
+    speakerNameOverride: Radit
+    dialogueText: Kayaknya semua orang liat deh..
+    isThought: 0
+    expression: 
+    backgroundOverride: {fileID: 0}
+    conditionKey: 
+    conditionValue: 
+    choices: []
+  - character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
+    speakerNameOverride: Radit
+    dialogueText: Kau membuat keputusan tepat, lebih baik nggak macam macam dengan
+      Rico
+    isThought: 0
+    expression: 
+    backgroundOverride: {fileID: 0}
+    conditionKey: rico_result
+    conditionValue: damai
+    choices: []
+  - character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
+    speakerNameOverride: Tono
+    dialogueText: Iya, padahal aku belum 5 menit di sekolah ini tapi sudah dipalak
+      aja
+    isThought: 0
+    expression: 
+    backgroundOverride: {fileID: 0}
+    conditionKey: rico_result
+    conditionValue: damai
+    choices: []
+  - character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
+    speakerNameOverride: Radit
+    dialogueText: Jujur.. Kamu nekat banget. Kayaknya wajahmu sudah ditandai.
+    isThought: 0
+    expression: 
+    backgroundOverride: {fileID: 0}
+    conditionKey: rico_result
+    conditionValue: waspada
+    choices: []
+  - character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
+    speakerNameOverride: Tono
+    dialogueText: Aku tahu, aku cuma nggak mau dicurangi seperti itu..
+    isThought: 0
+    expression: 
+    backgroundOverride: {fileID: 0}
+    conditionKey: rico_result
+    conditionValue: waspada
+    choices: []
+  - character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
+    speakerNameOverride: Tono
+    dialogueText: Lagipula.. Kenapa anak seperti Rico itu bisa sebebas itu di sekolah
+      ini?
+    isThought: 0
+    expression: 
+    backgroundOverride: {fileID: 0}
+    conditionKey: 
+    conditionValue: 
+    choices: []
+  - character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
+    speakerNameOverride: Radit
+    dialogueText: Kamu nggak mungkin nggak tahu kan? Soal rumor sekolah ini?
+    isThought: 0
+    expression: 
+    backgroundOverride: {fileID: 0}
+    conditionKey: 
+    conditionValue: 
+    choices: []
+  - character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
+    speakerNameOverride: Tono
+    dialogueText: Tahu sih.. Katanya, disini seperti penjara.
+    isThought: 0
+    expression: 
+    backgroundOverride: {fileID: 0}
+    conditionKey: 
+    conditionValue: 
+    choices: []
+  - character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
+    speakerNameOverride: Tono
+    dialogueText: Tahu sih.. Katanya, disini seperti penjara.
+    isThought: 0
+    expression: 
+    backgroundOverride: {fileID: 0}
+    conditionKey: 
+    conditionValue: 
+    choices: []
+  - character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
+    speakerNameOverride: Radit
+    dialogueText: 'Menghela nafas. '
+    isThought: 0
+    expression: 
+    backgroundOverride: {fileID: 0}
+    conditionKey: 
+    conditionValue: 
+    choices: []
+  - character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
+    speakerNameOverride: Radit
+    dialogueText: 'Mungkin lebih buruk.. '
+    isThought: 0
+    expression: 
+    backgroundOverride: {fileID: 0}
+    conditionKey: 
+    conditionValue: 
+    choices: []
+  - character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
+    speakerNameOverride: Radit
+    dialogueText: Murid2 di sekolah ini terbagi menjadi banyak faksi.
+    isThought: 0
+    expression: 
+    backgroundOverride: {fileID: 0}
+    conditionKey: 
+    conditionValue: 
+    choices: []
+  - character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
+    speakerNameOverride: Radit
+    dialogueText: Namun, hanya 3 faksi yang perlu kamu waspadai.
+    isThought: 0
+    expression: 
+    backgroundOverride: {fileID: 0}
+    conditionKey: 
+    conditionValue: 
+    choices: []
+  - character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
+    speakerNameOverride: Radit
+    dialogueText: Pertama, Anak Ekskul Olahraga. Dipimpin sama Rico.
+    isThought: 0
+    expression: 
+    backgroundOverride: {fileID: 0}
+    conditionKey: 
+    conditionValue: 
+    choices: []
+  - character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
+    speakerNameOverride: Radit
+    dialogueText: Mereka menguasai lapangan belakang sama koridor utama. Otot semua,
+      tapi otak nggak ada.
+    isThought: 0
+    expression: 
+    backgroundOverride: {fileID: 0}
+    conditionKey: 
+    conditionValue: 
+    choices: []
+  - character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
+    speakerNameOverride: Radit
+    dialogueText: Semester lalu, ada anak yang lupa bawa uang makan untuk Rico. Anak-anak
+      Rico ngunci dia di dalam loker peralatan olahraga semalaman sampai dehidrasi
+      parah. Sekolah cuma nganggap itu 'kecelakaan bercandaan'.
+    isThought: 0
+    expression: 
+    backgroundOverride: {fileID: 0}
+    conditionKey: 
+    conditionValue: 
+    choices: []
+  - character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
+    speakerNameOverride: Radit
+    dialogueText: Anak itu langsung keluar dari sekolah ini, tapi Rico dan anak buahnya
+      tidak ditindak apa apa.
+    isThought: 0
+    expression: 
+    backgroundOverride: {fileID: 0}
+    conditionKey: 
+    conditionValue: 
+    choices: []
+  - character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
+    speakerNameOverride: Tono
+    dialogueText: (Sialan... Rico benar-benar gapunya otak.)
+    isThought: 0
+    expression: 
+    backgroundOverride: {fileID: 0}
+    conditionKey: 
+    conditionValue: 
+    choices: []
+  - character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
+    speakerNameOverride: Radit
+    dialogueText: Kedua, Tongkrongan Kantin. Tempatnya si Gita.
+    isThought: 0
+    expression: 
+    backgroundOverride: {fileID: 0}
+    conditionKey: 
+    conditionValue: 
+    choices: []
+  - character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
+    speakerNameOverride: Tono
+    dialogueText: Tahu sih.. Katanya, disini seperti penjara.
+    isThought: 0
+    expression: 
+    backgroundOverride: {fileID: 0}
+    conditionKey: 
+    conditionValue: 
+    choices: []
+  - character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
+    speakerNameOverride: Tono
+    dialogueText: Tahu sih.. Katanya, disini seperti penjara.
+    isThought: 0
+    expression: 
+    backgroundOverride: {fileID: 0}
+    conditionKey: 
+    conditionValue: 
+    choices: []

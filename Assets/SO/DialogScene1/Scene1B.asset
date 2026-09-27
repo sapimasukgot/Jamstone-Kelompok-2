@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad63281a002ea1e488eed84a1bb6e643, type: 3}
+  m_Name: Scene1B
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  sceneId: S1B
+  sceneDescription: 'OPSI 2: Kabur '
+  lines:
+  - character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
+    speakerNameOverride: Tono
+    dialogueText: Iya sebentar..
+    isThought: 0
+    expression: 
+    backgroundOverride: {fileID: 0}
+    choices: []
+  - character: {fileID: 0}
+    speakerNameOverride: Rico
+    dialogueText: Buruan!
+    isThought: 0
+    expression: 
+    backgroundOverride: {fileID: 0}
+    choices: []
+  - character: {fileID: 0}
+    speakerNameOverride: 
+    dialogueText: 'SFX: Drap drap drap drap drap..'
+    isThought: 0
+    expression: 
+    backgroundOverride: {fileID: 0}
+    choices: []
+  - character: {fileID: 0}
+    speakerNameOverride: 
+    dialogueText: Tono menghilang dari lane
+    isThought: 0
+    expression: 
+    backgroundOverride: {fileID: 0}
+    choices: []
+  - character: {fileID: 11400000, guid: 5f46f435b99071d48b8cf6d311db3080, type: 2}
+    speakerNameOverride: Rico
+    dialogueText: SIALAN LO MATA EMPAT!!!!!
+    isThought: 0
+    expression: 
+    backgroundOverride: {fileID: 0}
+    choices: []
