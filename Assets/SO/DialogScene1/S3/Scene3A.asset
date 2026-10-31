@@ -17,11 +17,10 @@ MonoBehaviour:
   lines:
   - character: {fileID: 0}
     speakerNameOverride: 
-    dialogueText: 'Layar menampilkan background Koridor SMA Garuda. SFX: Suara riuh
-      murid di koridor.'
+    dialogueText: ' SFX: Suara riuh murid di koridor.'
     isThought: 0
     expression: 
-    backgroundOverride: {fileID: 0}
+    backgroundOverride: {fileID: -173954723506884847, guid: d7df5b913413b554dbfc2347973c852d, type: 3}
     sfxClip: {fileID: 0}
     sfxVolume: 1
     conditionKey: 
@@ -31,7 +30,7 @@ MonoBehaviour:
     choices: []
   - character: {fileID: 0}
     speakerNameOverride: 
-    dialogueText: '// Pengumuman hasil ulangan harian resmi ditempel. '
+    dialogueText: 'Pengumuman hasil ulangan harian resmi ditempel. '
     isThought: 0
     expression: 
     backgroundOverride: {fileID: 0}
@@ -58,7 +57,7 @@ MonoBehaviour:
     choices: []
   - character: {fileID: 0}
     speakerNameOverride: 
-    dialogueText: ' Dalam sekejap, status Tono berubah dari anak baru tak dikenal
+    dialogueText: 'Dalam sekejap, status Tono berubah dari anak baru tak dikenal
       menjadi sorotan utama. '
     isThought: 0
     expression: 
@@ -73,20 +72,7 @@ MonoBehaviour:
   - character: {fileID: 0}
     speakerNameOverride: 
     dialogueText: Terdengar bisikan dari para murid lain, menyinggung soal nilai
-      Tono yang mengalahkan nilai Aris //
-    isThought: 0
-    expression: 
-    backgroundOverride: {fileID: 0}
-    sfxClip: {fileID: 0}
-    sfxVolume: 1
-    conditionKey: 
-    conditionValue: 
-    minigameSceneName: 
-    stageCommands: []
-    choices: []
-  - character: {fileID: 0}
-    speakerNameOverride: 
-    dialogueText: 'Sprite Rico muncul '
+      Tono yang mengalahkan nilai Aris
     isThought: 0
     expression: 
     backgroundOverride: {fileID: 0}
@@ -108,7 +94,11 @@ MonoBehaviour:
     conditionKey: 
     conditionValue: 
     minigameSceneName: 
-    stageCommands: []
+    stageCommands:
+    - action: 0
+      character: {fileID: 11400000, guid: 5f46f435b99071d48b8cf6d311db3080, type: 2}
+      position: 2
+      expression: a
     choices: []
   - character: {fileID: 11400000, guid: 5f46f435b99071d48b8cf6d311db3080, type: 2}
     speakerNameOverride: Rico
@@ -124,7 +114,11 @@ MonoBehaviour:
     conditionKey: rico_result
     conditionValue: waspada
     minigameSceneName: 
-    stageCommands: []
+    stageCommands:
+    - action: 0
+      character: {fileID: 11400000, guid: 5f46f435b99071d48b8cf6d311db3080, type: 2}
+      position: 2
+      expression: a
     choices: []
   - character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
     speakerNameOverride: Tono
@@ -137,7 +131,15 @@ MonoBehaviour:
     conditionKey: 
     conditionValue: 
     minigameSceneName: 
-    stageCommands: []
+    stageCommands:
+    - action: 0
+      character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
+      position: 1
+      expression: a
+    - action: 0
+      character: {fileID: 11400000, guid: 5f46f435b99071d48b8cf6d311db3080, type: 2}
+      position: 3
+      expression: a
     choices: []
   - character: {fileID: 11400000, guid: 5f46f435b99071d48b8cf6d311db3080, type: 2}
     speakerNameOverride: Rico
@@ -194,19 +196,6 @@ MonoBehaviour:
     minigameSceneName: 
     stageCommands: []
     choices: []
-  - character: {fileID: 0}
-    speakerNameOverride: 
-    dialogueText: Sprite Gita muncul menyela dari arah kanan
-    isThought: 0
-    expression: 
-    backgroundOverride: {fileID: 0}
-    sfxClip: {fileID: 0}
-    sfxVolume: 1
-    conditionKey: 
-    conditionValue: 
-    minigameSceneName: 
-    stageCommands: []
-    choices: []
   - character: {fileID: 11400000, guid: 3b51b1c22931b8a4c867e012f9d2fefd, type: 2}
     speakerNameOverride: Gita
     dialogueText: Elah, Ric! Lo pikir anak kayak dia mau disuruh-suruh cuma demi
@@ -219,7 +208,11 @@ MonoBehaviour:
     conditionKey: 
     conditionValue: 
     minigameSceneName: 
-    stageCommands: []
+    stageCommands:
+    - action: 0
+      character: {fileID: 11400000, guid: 3b51b1c22931b8a4c867e012f9d2fefd, type: 2}
+      position: 4
+      expression: a
     choices: []
   - character: {fileID: 11400000, guid: 5f46f435b99071d48b8cf6d311db3080, type: 2}
     speakerNameOverride: Rico
@@ -249,7 +242,7 @@ MonoBehaviour:
     choices: []
   - character: {fileID: 0}
     speakerNameOverride: 
-    dialogueText: // Rico terdiam sesaat, dan kemudian dia membatalkan penawarannya
+    dialogueText: Rico terdiam sesaat, dan kemudian dia membatalkan penawarannya
       untuk Tono.
     isThought: 0
     expression: 
@@ -285,7 +278,15 @@ MonoBehaviour:
     conditionKey: 
     conditionValue: 
     minigameSceneName: 
-    stageCommands: []
+    stageCommands:
+    - action: 1
+      character: {fileID: 11400000, guid: 5f46f435b99071d48b8cf6d311db3080, type: 2}
+      position: 3
+      expression: a
+    - action: 0
+      character: {fileID: 11400000, guid: 3b51b1c22931b8a4c867e012f9d2fefd, type: 2}
+      position: 3
+      expression: a
     choices: []
   - character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
     speakerNameOverride: Tono
@@ -394,41 +395,6 @@ MonoBehaviour:
       nextLineIndex: 0
       setFlagKey: gita_tolak
       setFlagValue: tolak
-  - character: {fileID: 0}
-    speakerNameOverride: 
-    dialogueText: 
-    isThought: 0
-    expression: 
-    backgroundOverride: {fileID: 0}
-    sfxClip: {fileID: 0}
-    sfxVolume: 1
-    conditionKey: 
-    conditionValue: 
-    minigameSceneName: 
-    stageCommands: []
-    choices:
-    - choiceText: 
-      nextDialogue: {fileID: 11400000, guid: bd6caa9be3bc0b946b9d6d24650ee6eb, type: 2}
-      nextLineIndex: 0
-      setFlagKey: gita_offer
-      setFlagValue: menerima
-    - choiceText: 
-      nextDialogue: {fileID: 11400000, guid: 6277d2447824c0e47a558bbbee606665, type: 2}
-      nextLineIndex: 0
-      setFlagKey: gita_offer
-      setFlagValue: menolak
-  - character: {fileID: 0}
-    speakerNameOverride: 
-    dialogueText: 
-    isThought: 0
-    expression: 
-    backgroundOverride: {fileID: 0}
-    sfxClip: {fileID: 0}
-    sfxVolume: 1
-    conditionKey: 
-    conditionValue: 
-    minigameSceneName: 
-    stageCommands: []
-    choices: []
+  fadeTransition: 0
   nextDialogue: {fileID: 0}
   conditionalNexts: []
