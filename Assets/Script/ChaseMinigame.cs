@@ -88,6 +88,11 @@ public class ChaseMinigame : MonoBehaviour
     public Color chaserColor = Color.red;
     public Color wandererColor = new Color(1f, 0.6f, 0.1f);
 
+    [Header("Sprite KarakterS")]
+    public Sprite playerSprite;
+    public Sprite chaserSprite;     // Rico
+    public Sprite wandererSprite;   // anak buah
+
     // Dibaca oleh ChaseActor
     public ChaseMaze Maze { get; private set; }
     public ChaseActor Player { get; private set; }
@@ -297,18 +302,30 @@ public class ChaseMinigame : MonoBehaviour
 
     private void SpawnActors()
     {
-        Player = SpawnActor("Player (Tono)", Maze.playerStart, ChaseActorType.Player, playerSpeed, playerColor);
+        Player = SpawnActor("Player (Tono)", Maze.playerStart, ChaseActorType.Player, playerSpeed, playerColor, playerSprite);
 
-        enemies.Add(SpawnActor("Chaser (Rico)", Maze.chaserStart, ChaseActorType.Chaser, chaserSpeed, chaserColor));
+        enemies.Add(SpawnActor("Chaser (Rico)", Maze.chaserStart, ChaseActorType.Chaser, chaserSpeed, chaserColor, chaserSprite));
 
         foreach (Vector2Int start in Maze.wandererStarts)
-            enemies.Add(SpawnActor("Wanderer (anak buah)", start, ChaseActorType.Wanderer, wandererSpeed, wandererColor));
+            enemies.Add(SpawnActor("Wanderer (anak buah)", start, ChaseActorType.Wanderer, wandererSpeed, wandererColor, wandererSprite));
     }
 
-    private ChaseActor SpawnActor(string actorName, Vector2Int cell, ChaseActorType type, float speed, Color color)
+    private ChaseActor SpawnActor(string actorName, Vector2Int cell, ChaseActorType type, float speed, Color color, Sprite sprite)
     {
-        Vector3 scale = Vector3.one * 0.7f * Maze.CellSize;
-        GameObject go = MakeSprite(actorName, color, Maze.CellToWorld(cell), scale, 2);
+        float targetSize = 0.7f * Maze.CellSize;
+        Vector3 scale = Vector3.one * targetSize;
+
+        if (sprite != null)
+        {
+            // Sprite asli punya ukuran sendiri (tergantung Pixels Per Unit), jadi skalanya
+            // disesuaikan supaya tetap muat di satu sel.
+            Vector2 size = sprite.bounds.size;
+            float fit = targetSize / Mathf.Max(size.x, size.y);
+            scale = new Vector3(fit, fit, 1f);
+            color = Color.white; // supaya warna sprite asli tidak ter-tint
+        }
+
+        GameObject go = MakeSprite(actorName, color, Maze.CellToWorld(cell), scale, 2, sprite);
         ChaseActor actor = go.AddComponent<ChaseActor>();
         actor.Init(this, Maze, cell, type, speed);
         return actor;
@@ -316,7 +333,7 @@ public class ChaseMinigame : MonoBehaviour
 
     // Semua objek dijadikan anak dari manager ini supaya ikut hilang saat scene minigame
     // ditutup (objek baru yang tidak punya induk masuk ke scene VN, bukan scene ini).
-    private GameObject MakeSprite(string objectName, Color color, Vector3 position, Vector3 scale, int sortingOrder)
+    private GameObject MakeSprite(string objectName, Color color, Vector3 position, Vector3 scale, int sortingOrder, Sprite customSprite = null)
     {
         GameObject go = new GameObject(objectName);
         go.transform.SetParent(transform, false);
@@ -324,7 +341,7 @@ public class ChaseMinigame : MonoBehaviour
         go.transform.localScale = scale;
 
         SpriteRenderer sr = go.AddComponent<SpriteRenderer>();
-        sr.sprite = GetSquareSprite();
+        sr.sprite = customSprite != null ? customSprite : GetSquareSprite();
         sr.color = color;
         sr.sortingOrder = sortingOrder;
         return go;

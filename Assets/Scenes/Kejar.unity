@@ -5438,6 +5438,9 @@ MonoBehaviour:
   playerColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   chaserColor: {r: 1, g: 0, b: 0, a: 1}
   wandererColor: {r: 1, g: 0.6, b: 0.1, a: 1}
+  playerSprite: {fileID: -2004764028139906949, guid: 0413b0df35530164eb385d09717fda0f, type: 3}
+  chaserSprite: {fileID: -2004764028139906949, guid: 0413b0df35530164eb385d09717fda0f, type: 3}
+  wandererSprite: {fileID: -2004764028139906949, guid: 0413b0df35530164eb385d09717fda0f, type: 3}
 --- !u!4 &1999785613
 Transform:
   m_ObjectHideFlags: 0
