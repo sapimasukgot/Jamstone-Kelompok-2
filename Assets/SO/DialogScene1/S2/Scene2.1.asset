@@ -17,10 +17,10 @@ MonoBehaviour:
   lines:
   - character: {fileID: 0}
     speakerNameOverride: 
-    dialogueText: 'Kelas telah usai. Saatnya Tono pulang '
+    dialogueText: 'Kelas telah usai. Saatnya Tono pulang. '
     isThought: 0
     expression: 
-    backgroundOverride: {fileID: -6782079960528466537, guid: f017ccbba3f47c04ebfd181703a1d895, type: 3}
+    backgroundOverride: {fileID: -5590683259265111862, guid: 8a8d8ebfa1f47db42b4a10fdd177e752, type: 3}
     sfxClip: {fileID: 0}
     sfxVolume: 1
     conditionKey: 
@@ -71,16 +71,6 @@ MonoBehaviour:
       position: 2
       expression: marah
       flipX: 0
-    - action: 0
-      character: {fileID: 11400000, guid: 5f46f435b99071d48b8cf6d311db3080, type: 2}
-      position: 3
-      expression: netral
-      flipX: 0
-    - action: 0
-      character: {fileID: 11400000, guid: 5f46f435b99071d48b8cf6d311db3080, type: 2}
-      position: 4
-      expression: senyum
-      flipX: 0
     choices: []
   - character: {fileID: 11400000, guid: 5f46f435b99071d48b8cf6d311db3080, type: 2}
     speakerNameOverride: Rico
@@ -97,7 +87,25 @@ MonoBehaviour:
     choices: []
   - character: {fileID: 11400000, guid: 5f46f435b99071d48b8cf6d311db3080, type: 2}
     speakerNameOverride: Rico
-    dialogueText: 'Jangan pikir lu bisa lari dari gua! '
+    dialogueText: ' '
+    isThought: 0
+    expression: 
+    backgroundOverride: {fileID: 0}
+    sfxClip: {fileID: 0}
+    sfxVolume: 1
+    conditionKey: 
+    conditionValue: 
+    minigameSceneName: 
+    stageCommands:
+    - action: 1
+      character: {fileID: 11400000, guid: 5f46f435b99071d48b8cf6d311db3080, type: 2}
+      position: 2
+      expression: 
+      flipX: 0
+    choices: []
+  - character: {fileID: 0}
+    speakerNameOverride: 
+    dialogueText: ' '
     isThought: 0
     expression: 
     backgroundOverride: {fileID: 0}
@@ -107,20 +115,10 @@ MonoBehaviour:
     conditionValue: 
     minigameSceneName: kejar
     stageCommands:
-    - action: 1
-      character: {fileID: 11400000, guid: 5f46f435b99071d48b8cf6d311db3080, type: 2}
-      position: 2
-      expression: marah
-      flipX: 0
-    - action: 1
-      character: {fileID: 11400000, guid: 5f46f435b99071d48b8cf6d311db3080, type: 2}
-      position: 3
-      expression: netral
-      flipX: 0
-    - action: 1
-      character: {fileID: 11400000, guid: 5f46f435b99071d48b8cf6d311db3080, type: 2}
-      position: 4
-      expression: senyum
+    - action: 0
+      character: {fileID: 0}
+      position: 0
+      expression: 
       flipX: 0
     choices: []
   fadeTransition: 1

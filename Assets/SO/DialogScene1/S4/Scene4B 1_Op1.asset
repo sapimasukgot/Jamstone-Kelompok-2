@@ -43,8 +43,8 @@ MonoBehaviour:
     choices: []
   - character: {fileID: 11400000, guid: 183f836956bc50d48904bbf8b612ded2, type: 2}
     speakerNameOverride: Aris
-    dialogueText: Syaratnya apa?Laporkan padaku begitu kamu melihat pergerakan mencurigakan
-      dari mereka.
+    dialogueText: Laporkan padaku begitu kamu melihat pergerakan mencurigakan dari
+      mereka.
     isThought: 0
     expression: 
     backgroundOverride: {fileID: 0}

@@ -17,8 +17,8 @@ MonoBehaviour:
   lines:
   - character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
     speakerNameOverride: Tono
-    dialogueText: ("Cuma perlu bertahan setahun. Jangan cari masalah, jaga nilai
-      tetap sempurna, dan lulus..")
+    dialogueText: (Cuma perlu bertahan setahun. Jangan cari masalah, jaga nilai tetap
+      sempurna, dan lulus...)
     isThought: 1
     expression: 
     backgroundOverride: {fileID: -6782079960528466537, guid: f017ccbba3f47c04ebfd181703a1d895, type: 3}
@@ -29,8 +29,8 @@ MonoBehaviour:
     minigameSceneName: 
     stageCommands: []
     choices: []
-  - character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
-    speakerNameOverride: Tono
+  - character: {fileID: 0}
+    speakerNameOverride: 
     dialogueText: (BRUKKK...)
     isThought: 0
     expression: 
@@ -44,7 +44,7 @@ MonoBehaviour:
     choices: []
   - character: {fileID: 0}
     speakerNameOverride: 
-    dialogueText: Seseorang menabrak baru Tono dari belakang hingga ia tersungkur.
+    dialogueText: Seseorang menabrak bahu Tono dari belakang hingga ia tersungkur.
     isThought: 0
     expression: 
     backgroundOverride: {fileID: 0}
@@ -83,7 +83,7 @@ MonoBehaviour:
     - action: 0
       character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
       position: 1
-      expression: netral
+      expression: cemas
       flipX: 0
     choices: []
   - character: {fileID: 11400000, guid: 5f46f435b99071d48b8cf6d311db3080, type: 2}
@@ -116,7 +116,12 @@ MonoBehaviour:
     conditionKey: 
     conditionValue: 
     minigameSceneName: 
-    stageCommands: []
+    stageCommands:
+    - action: 0
+      character: {fileID: 11400000, guid: 5f46f435b99071d48b8cf6d311db3080, type: 2}
+      position: 3
+      expression: senyum
+      flipX: 0
     choices: []
   - character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
     speakerNameOverride: Tono
@@ -202,19 +207,19 @@ MonoBehaviour:
     minigameSceneName: 
     stageCommands: []
     choices:
-    - choiceText: 'OPSI 1: Berikan Rico Uang'
+    - choiceText: Berikan Rico Uang
       conditions: []
       nextDialogue: {fileID: 11400000, guid: cd20228bde53fd04fa1b647c7b1ee2e9, type: 2}
       nextLineIndex: -1
       setFlagKey: rico_result
       setFlagValue: damai
-    - choiceText: 'OPSI 2: Kabur '
+    - choiceText: 'Kabur '
       conditions: []
       nextDialogue: {fileID: 11400000, guid: 21e5854bd586ac140954733c198d6850, type: 2}
       nextLineIndex: -1
       setFlagKey: rico_result
       setFlagValue: waspada
-    - choiceText: 'OPSI 3: Lawan '
+    - choiceText: 'Lawan '
       conditions: []
       nextDialogue: {fileID: 11400000, guid: b49e00db5b817e84090cf698e54d6931, type: 2}
       nextLineIndex: -1

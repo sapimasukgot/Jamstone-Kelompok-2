@@ -17,12 +17,12 @@ MonoBehaviour:
   lines:
   - character: {fileID: 0}
     speakerNameOverride: 
-    dialogueText: (Suara riuh murid kelas bercakap-cakap.)
+    dialogueText: 
     isThought: 0
     expression: 
-    backgroundOverride: {fileID: -8464843772531519362, guid: 96138311690c4f1478b68b65838b7f89, type: 3}
-    sfxClip: {fileID: 0}
-    sfxVolume: 1
+    backgroundOverride: {fileID: -4267878078730519213, guid: 5fab319b1a26d7d4d9a771fa81aef283, type: 3}
+    sfxClip: {fileID: 8300000, guid: 42c525ce80360994c985c38c7215a3b7, type: 3}
+    sfxVolume: 0.804
     conditionKey: 
     conditionValue: 
     minigameSceneName: 
@@ -44,11 +44,11 @@ MonoBehaviour:
       character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
       position: 2
       expression: netral
-      flipX: 0
+      flipX: 1
     choices: []
   - character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
     speakerNameOverride: Tono
-    dialogueText: ( Kelas ini masih sepi..)
+    dialogueText: (Kelas ini masih sepi..)
     isThought: 1
     expression: 
     backgroundOverride: {fileID: 0}
@@ -61,8 +61,7 @@ MonoBehaviour:
     choices: []
   - character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
     speakerNameOverride: Tono
-    dialogueText: ( Padahal di lorong rame, sepertinya mereka sengaja telat masuk
-      )
+    dialogueText: (Padahal di lorong rame, sepertinya mereka sengaja telat masuk)
     isThought: 1
     expression: 
     backgroundOverride: {fileID: 0}
@@ -75,7 +74,7 @@ MonoBehaviour:
     choices: []
   - character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
     speakerNameOverride: Tono
-    dialogueText: ( Eh.. Ada orang di pojokan )
+    dialogueText: (Eh.. Ada orang di pojokan)
     isThought: 1
     expression: 
     backgroundOverride: {fileID: 0}
@@ -167,8 +166,8 @@ MonoBehaviour:
     minigameSceneName: 
     stageCommands: []
     choices: []
-  - character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
-    speakerNameOverride: Radit
+  - character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
+    speakerNameOverride: 
     dialogueText: Kamu lihat?
     isThought: 0
     expression: 
@@ -195,7 +194,7 @@ MonoBehaviour:
     choices: []
   - character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
     speakerNameOverride: Radit
-    dialogueText: Kau membuat keputusan tepat, lebih baik nggak macam macam dengan
+    dialogueText: Kamu membuat keputusan tepat, lebih baik nggak macam macam dengan
       Rico
     isThought: 0
     expression: 
@@ -205,21 +204,31 @@ MonoBehaviour:
     conditionKey: rico_result
     conditionValue: damai
     minigameSceneName: 
-    stageCommands: []
+    stageCommands:
+    - action: 2
+      character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
+      position: 3
+      expression: senyum
+      flipX: 1
     choices: []
   - character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
     speakerNameOverride: Tono
     dialogueText: Iya, padahal aku belum 5 menit di sekolah ini tapi sudah dipalak
       aja
     isThought: 0
-    expression: 
+    expression: cemas
     backgroundOverride: {fileID: 0}
     sfxClip: {fileID: 0}
     sfxVolume: 1
     conditionKey: rico_result
     conditionValue: damai
     minigameSceneName: 
-    stageCommands: []
+    stageCommands:
+    - action: 2
+      character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
+      position: 1
+      expression: cemas
+      flipX: 0
     choices: []
   - character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
     speakerNameOverride: Radit
@@ -232,7 +241,12 @@ MonoBehaviour:
     conditionKey: rico_result
     conditionValue: waspada
     minigameSceneName: 
-    stageCommands: []
+    stageCommands:
+    - action: 2
+      character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
+      position: 1
+      expression: cemas
+      flipX: 1
     choices: []
   - character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
     speakerNameOverride: Tono
@@ -245,7 +259,12 @@ MonoBehaviour:
     conditionKey: rico_result
     conditionValue: waspada
     minigameSceneName: 
-    stageCommands: []
+    stageCommands:
+    - action: 2
+      character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
+      position: 1
+      expression: cemas
+      flipX: 0
     choices: []
   - character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
     speakerNameOverride: Tono
@@ -259,7 +278,12 @@ MonoBehaviour:
     conditionKey: 
     conditionValue: 
     minigameSceneName: 
-    stageCommands: []
+    stageCommands:
+    - action: 0
+      character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
+      position: 1
+      expression: netral
+      flipX: 0
     choices: []
   - character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
     speakerNameOverride: Radit
@@ -272,7 +296,12 @@ MonoBehaviour:
     conditionKey: 
     conditionValue: 
     minigameSceneName: 
-    stageCommands: []
+    stageCommands:
+    - action: 2
+      character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
+      position: 3
+      expression: netral
+      flipX: 1
     choices: []
   - character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
     speakerNameOverride: Tono
@@ -315,7 +344,7 @@ MonoBehaviour:
     choices: []
   - character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
     speakerNameOverride: Radit
-    dialogueText: Murid2 di sekolah ini terbagi menjadi banyak faksi.
+    dialogueText: Murid murid di sekolah ini terbagi menjadi banyak faksi.
     isThought: 0
     expression: 
     backgroundOverride: {fileID: 0}
@@ -328,7 +357,7 @@ MonoBehaviour:
     choices: []
   - character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
     speakerNameOverride: Radit
-    dialogueText: Namun, hanya 3 faksi yang perlu kamu waspadai.
+    dialogueText: Tapi, cuma 3 faksi yang perlu kamu waspadai.
     isThought: 0
     expression: 
     backgroundOverride: {fileID: 0}
@@ -370,7 +399,7 @@ MonoBehaviour:
     speakerNameOverride: Radit
     dialogueText: Semester lalu, ada anak yang lupa bawa uang makan untuk Rico. Anak-anak
       Rico ngunci dia di dalam loker peralatan olahraga semalaman sampai dehidrasi
-      parah. Sekolah cuma nganggap itu 'kecelakaan bercandaan'.
+      parah. Sekolah cuma nganggap itu 'hanya bercanda'.
     isThought: 0
     expression: 
     backgroundOverride: {fileID: 0}
@@ -406,7 +435,12 @@ MonoBehaviour:
     conditionKey: 
     conditionValue: 
     minigameSceneName: 
-    stageCommands: []
+    stageCommands:
+    - action: 2
+      character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
+      position: 1
+      expression: cemas
+      flipX: 0
     choices: []
   - character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
     speakerNameOverride: Radit
@@ -419,13 +453,18 @@ MonoBehaviour:
     conditionKey: 
     conditionValue: 
     minigameSceneName: 
-    stageCommands: []
+    stageCommands:
+    - action: 2
+      character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
+      position: 1
+      expression: netral
+      flipX: 0
     choices: []
   - character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
     speakerNameOverride: Radit
     dialogueText: Faksi terbesar di sini, dan mereka tidak punya pemimpin resmi.
-      Mereka pusatnya gosip, transaksi barang ilegal, rokok, sampai kunci jawaban.
-      Pokoknya apa pun yang dilarang sekolah, ada di sana.
+      Mereka pusatnya gosip, transaksi barang ilegal, rokok, sampai bocoran kunci
+      jawaban. Pokoknya apa pun yang dilarang sekolah, ada di sana.
     isThought: 0
     expression: 
     backgroundOverride: {fileID: 0}
@@ -462,12 +501,17 @@ MonoBehaviour:
     conditionKey: 
     conditionValue: 
     minigameSceneName: 
-    stageCommands: []
+    stageCommands:
+    - action: 2
+      character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
+      position: 3
+      expression: cemas
+      flipX: 1
     choices: []
   - character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
     speakerNameOverride: Radit
     dialogueText: Dia langsung cabut dan pindah sekolah karena nggak kuat menanggung
-      malu. seorang waria.
+      malu.
     isThought: 0
     expression: 
     backgroundOverride: {fileID: 0}
@@ -480,7 +524,7 @@ MonoBehaviour:
     choices: []
   - character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
     speakerNameOverride: Tono
-    dialogueText: "( Mereka sudah seperti mafia kecil\u2026 )"
+    dialogueText: "(Mereka sudah seperti mafia kecil\u2026)"
     isThought: 1
     expression: 
     backgroundOverride: {fileID: 0}
@@ -489,7 +533,12 @@ MonoBehaviour:
     conditionKey: 
     conditionValue: 
     minigameSceneName: 
-    stageCommands: []
+    stageCommands:
+    - action: 2
+      character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
+      position: 3
+      expression: cemas
+      flipX: 0
     choices: []
   - character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
     speakerNameOverride: Radit
@@ -519,7 +568,7 @@ MonoBehaviour:
     choices: []
   - character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
     speakerNameOverride: Radit
-    dialogueText: (Tersenyum tipis)
+    dialogueText: ...
     isThought: 0
     expression: 
     backgroundOverride: {fileID: 0}
@@ -542,7 +591,12 @@ MonoBehaviour:
     conditionKey: 
     conditionValue: 
     minigameSceneName: 
-    stageCommands: []
+    stageCommands:
+    - action: 2
+      character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
+      position: 3
+      expression: netral
+      flipX: 1
     choices: []
   - character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
     speakerNameOverride: Tono
@@ -602,8 +656,8 @@ MonoBehaviour:
     choices: []
   - character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
     speakerNameOverride: Radit
-    dialogueText: 'Aku tidak tahu soal itu.. Mungkin ada pihak guru yang ikut bersekongkol
-      dengan Aris. kalau dia tidak bolos? '
+    dialogueText: 'Aku nggak tahu soal itu.. Mungkin ada pihak guru yang ikut bersekongkol
+      dengan Aris.  '
     isThought: 0
     expression: 
     backgroundOverride: {fileID: 0}
@@ -629,7 +683,7 @@ MonoBehaviour:
     choices: []
   - character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
     speakerNameOverride: Radit
-    dialogueText: 'Menghela napas berat '
+    dialogueText: '... '
     isThought: 0
     expression: 
     backgroundOverride: {fileID: 0}
@@ -736,13 +790,13 @@ MonoBehaviour:
     minigameSceneName: 
     stageCommands: []
     choices: []
-  - character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
+  - character: {fileID: 0}
     speakerNameOverride: 
-    dialogueText: 'SFX: Bel Sekolah'
+    dialogueText: 
     isThought: 0
     expression: 
     backgroundOverride: {fileID: 0}
-    sfxClip: {fileID: 0}
+    sfxClip: {fileID: 8300000, guid: f810532f4f425c5408482875bd152ef2, type: 3}
     sfxVolume: 1
     conditionKey: 
     conditionValue: 
@@ -762,15 +816,15 @@ MonoBehaviour:
     minigameSceneName: 
     stageCommands: []
     choices: []
-  - character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
+  - character: {fileID: 0}
     speakerNameOverride: 
     dialogueText: 'Para murid murid pun berbondong2 masuk ke ruangan kelas, suasana
       menjadi sangat berisik. '
     isThought: 0
     expression: 
     backgroundOverride: {fileID: 0}
-    sfxClip: {fileID: 0}
-    sfxVolume: 1
+    sfxClip: {fileID: 8300000, guid: 42c525ce80360994c985c38c7215a3b7, type: 3}
+    sfxVolume: 0
     conditionKey: 
     conditionValue: 
     minigameSceneName: 
@@ -786,7 +840,7 @@ MonoBehaviour:
       expression: netral
       flipX: 0
     choices: []
-  - character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
+  - character: {fileID: 0}
     speakerNameOverride: 
     dialogueText: 'Tono dan Radit duduk berdua di pojok, sembari menghindari kontak
       mata dengan siapapun. '
@@ -800,15 +854,15 @@ MonoBehaviour:
     minigameSceneName: 
     stageCommands: []
     choices: []
-  - character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
+  - character: {fileID: 0}
     speakerNameOverride: 
     dialogueText: Lalu, seorang guru masuk ke ruangan. Dalam hitungan detik, suasana
       ruangan yang tadinya bising langsung berubah hening total.
     isThought: 0
     expression: 
     backgroundOverride: {fileID: 0}
-    sfxClip: {fileID: 0}
-    sfxVolume: 1
+    sfxClip: {fileID: 8300000, guid: 42c525ce80360994c985c38c7215a3b7, type: 3}
+    sfxVolume: 0
     conditionKey: 
     conditionValue: 
     minigameSceneName: 
@@ -824,7 +878,7 @@ MonoBehaviour:
       expression: a
       flipX: 0
     choices: []
-  - character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
+  - character: {fileID: 0}
     speakerNameOverride: 
     dialogueText: Pelajaran pun dimulai. Namun, kata-kata Radit terus berputar di
       pikiran Tono.

@@ -32,7 +32,7 @@ MonoBehaviour:
   - character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
     speakerNameOverride: Tono
     dialogueText: (Glek.. dia tahu kejadian di koridor secepat ini?)
-    isThought: 0
+    isThought: 1
     expression: 
     backgroundOverride: {fileID: 0}
     sfxClip: {fileID: 0}
@@ -44,7 +44,7 @@ MonoBehaviour:
     choices: []
   - character: {fileID: 11400000, guid: 183f836956bc50d48904bbf8b612ded2, type: 2}
     speakerNameOverride: Aris
-    dialogueText: ' Lebih tepatnya, aku dapat laporan'
+    dialogueText: Lebih tepatnya, aku dapat laporan.
     isThought: 0
     expression: 
     backgroundOverride: {fileID: 0}
@@ -80,7 +80,12 @@ MonoBehaviour:
     conditionKey: 
     conditionValue: 
     minigameSceneName: 
-    stageCommands: []
+    stageCommands:
+    - action: 2
+      character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
+      position: 1
+      expression: cemas
+      flipX: 0
     choices: []
   - character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
     speakerNameOverride: Tono
@@ -108,12 +113,17 @@ MonoBehaviour:
     conditionKey: 
     conditionValue: 
     minigameSceneName: 
-    stageCommands: []
+    stageCommands:
+    - action: 2
+      character: {fileID: 11400000, guid: 183f836956bc50d48904bbf8b612ded2, type: 2}
+      position: 3
+      expression: marah
+      flipX: 1
     choices: []
   - character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
     speakerNameOverride: Tono
     dialogueText: (Kamu juga tidak jauh dari kata kriminal, Aris)
-    isThought: 0
+    isThought: 1
     expression: 
     backgroundOverride: {fileID: 0}
     sfxClip: {fileID: 0}
@@ -121,7 +131,12 @@ MonoBehaviour:
     conditionKey: 
     conditionValue: 
     minigameSceneName: 
-    stageCommands: []
+    stageCommands:
+    - action: 2
+      character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
+      position: 1
+      expression: marah
+      flipX: 0
     choices: []
   - character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
     speakerNameOverride: Tono
@@ -202,8 +217,8 @@ MonoBehaviour:
     choices: []
   - character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
     speakerNameOverride: Tono
-    dialogueText: ( Entah mengapa, ancamannya terasa sangat menakutkan )
-    isThought: 0
+    dialogueText: (Entah mengapa, ancamannya terasa sangat menakutkan)
+    isThought: 1
     expression: 
     backgroundOverride: {fileID: 0}
     sfxClip: {fileID: 0}
@@ -215,8 +230,8 @@ MonoBehaviour:
     choices: []
   - character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
     speakerNameOverride: Tono
-    dialogueText: ( Apa aku telah membuat keputusan yang salah? )
-    isThought: 0
+    dialogueText: (Apa aku telah membuat keputusan yang salah?)
+    isThought: 1
     expression: 
     backgroundOverride: {fileID: 0}
     sfxClip: {fileID: 0}
@@ -226,7 +241,7 @@ MonoBehaviour:
     minigameSceneName: 
     stageCommands: []
     choices: []
-  fadeTransition: 0
+  fadeTransition: 1
   nextDialogue: {fileID: 11400000, guid: 02e390acc3878ff4dba459771ef2dfb0, type: 2}
   conditionalNexts: []
   showEndCard: 0

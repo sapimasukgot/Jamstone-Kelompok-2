@@ -21,7 +21,7 @@ MonoBehaviour:
       kalau ada pelanggaran!)
     isThought: 1
     expression: 
-    backgroundOverride: {fileID: -8464843772531519362, guid: 96138311690c4f1478b68b65838b7f89, type: 3}
+    backgroundOverride: {fileID: 0}
     sfxClip: {fileID: 0}
     sfxVolume: 1
     conditionKey: 
@@ -31,12 +31,12 @@ MonoBehaviour:
     - action: 0
       character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
       position: 2
-      expression: netral
-      flipX: 0
+      expression: cemas
+      flipX: 1
     choices: []
   - character: {fileID: 0}
     speakerNameOverride: 
-    dialogueText: Drap.Drap.Drap
+    dialogueText: 
     isThought: 0
     expression: 
     backgroundOverride: {fileID: 2502215086801707522, guid: 50f28a2eb4bbfb649b058726ca75469d, type: 3}
@@ -50,7 +50,7 @@ MonoBehaviour:
       character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
       position: 2
       expression: netral
-      flipX: 0
+      flipX: 1
     choices: []
   - character: {fileID: 0}
     speakerNameOverride: 
@@ -91,7 +91,7 @@ MonoBehaviour:
       flipX: 0
     - action: 0
       character: {fileID: 11400000, guid: 183f836956bc50d48904bbf8b612ded2, type: 2}
-      position: 2
+      position: 3
       expression: netral
       flipX: 1
     choices: []
@@ -102,6 +102,24 @@ MonoBehaviour:
     isThought: 0
     expression: 
     backgroundOverride: {fileID: 0}
+    sfxClip: {fileID: 0}
+    sfxVolume: 1
+    conditionKey: 
+    conditionValue: 
+    minigameSceneName: 
+    stageCommands:
+    - action: 2
+      character: {fileID: 11400000, guid: 183f836956bc50d48904bbf8b612ded2, type: 2}
+      position: 3
+      expression: senyum
+      flipX: 1
+    choices: []
+  - character: {fileID: 0}
+    speakerNameOverride: 
+    dialogueText: 
+    isThought: 0
+    expression: 
+    backgroundOverride: {fileID: -4267878078730519213, guid: 5fab319b1a26d7d4d9a771fa81aef283, type: 3}
     sfxClip: {fileID: 0}
     sfxVolume: 1
     conditionKey: 
@@ -121,10 +139,10 @@ MonoBehaviour:
     choices: []
   - character: {fileID: 11400000, guid: 183f836956bc50d48904bbf8b612ded2, type: 2}
     speakerNameOverride: Aris
-    dialogueText: Hentikan aksi murahanmu itu, Rico.
+    dialogueText: Hentikan aksi murahanmu itu, Rico!
     isThought: 0
     expression: 
-    backgroundOverride: {fileID: -8464843772531519362, guid: 96138311690c4f1478b68b65838b7f89, type: 3}
+    backgroundOverride: {fileID: 0}
     sfxClip: {fileID: 0}
     sfxVolume: 1
     conditionKey: 
@@ -143,13 +161,13 @@ MonoBehaviour:
       flipX: 0
     - action: 0
       character: {fileID: 11400000, guid: 5f46f435b99071d48b8cf6d311db3080, type: 2}
-      position: 2
-      expression: marah
+      position: 3
+      expression: netral
       flipX: 1
     - action: 0
       character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
       position: 4
-      expression: Panik
+      expression: cemas
       flipX: 1
     choices: []
   - character: {fileID: 11400000, guid: 5f46f435b99071d48b8cf6d311db3080, type: 2}
@@ -168,12 +186,12 @@ MonoBehaviour:
     - action: 0
       character: {fileID: 11400000, guid: 5f46f435b99071d48b8cf6d311db3080, type: 2}
       position: 3
-      expression: marah
+      expression: senyum
       flipX: 0
     choices: []
   - character: {fileID: 11400000, guid: 183f836956bc50d48904bbf8b612ded2, type: 2}
     speakerNameOverride: Aris
-    dialogueText: Hhh..
+    dialogueText: 
     isThought: 0
     expression: 
     backgroundOverride: {fileID: 0}
@@ -182,7 +200,12 @@ MonoBehaviour:
     conditionKey: 
     conditionValue: 
     minigameSceneName: 
-    stageCommands: []
+    stageCommands:
+    - action: 2
+      character: {fileID: 11400000, guid: 183f836956bc50d48904bbf8b612ded2, type: 2}
+      position: 1
+      expression: senyum
+      flipX: 0
     choices: []
   - character: {fileID: 11400000, guid: 183f836956bc50d48904bbf8b612ded2, type: 2}
     speakerNameOverride: Aris
@@ -211,12 +234,17 @@ MonoBehaviour:
     conditionKey: 
     conditionValue: 
     minigameSceneName: 
-    stageCommands: []
+    stageCommands:
+    - action: 2
+      character: {fileID: 11400000, guid: 5f46f435b99071d48b8cf6d311db3080, type: 2}
+      position: 3
+      expression: marah
+      flipX: 0
     choices: []
   - character: {fileID: 11400000, guid: 5f46f435b99071d48b8cf6d311db3080, type: 2}
     speakerNameOverride: Rico
     dialogueText: SP2...? SP2 kata lu?! GUA KAGAK PEDULI SAMA SURAT SAMPAH LU ITU,
-      ARIS!
+      ANJING!
     isThought: 0
     expression: 
     backgroundOverride: {fileID: 0}
@@ -258,8 +286,18 @@ MonoBehaviour:
       position: 2
       expression: marah
       flipX: 0
+    - action: 2
+      character: {fileID: 11400000, guid: 183f836956bc50d48904bbf8b612ded2, type: 2}
+      position: 1
+      expression: cemas
+      flipX: 0
+    - action: 2
+      character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
+      position: 0
+      expression: marah
+      flipX: 0
     choices: []
-  fadeTransition: 1
+  fadeTransition: 0
   nextDialogue: {fileID: 0}
   conditionalNexts: []
   showEndCard: 1

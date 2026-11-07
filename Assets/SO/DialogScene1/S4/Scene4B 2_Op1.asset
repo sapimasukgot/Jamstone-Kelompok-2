@@ -83,7 +83,7 @@ MonoBehaviour:
       position: 1
       expression: netral
       flipX: 0
-    - action: 0
+    - action: 1
       character: {fileID: 11400000, guid: 183f836956bc50d48904bbf8b612ded2, type: 2}
       position: 3
       expression: netral

@@ -17,11 +17,11 @@ MonoBehaviour:
   lines:
   - character: {fileID: 0}
     speakerNameOverride: 
-    dialogueText: (Suara riuh murid di koridor.)
+    dialogueText: 
     isThought: 0
     expression: 
     backgroundOverride: {fileID: 2502215086801707522, guid: 50f28a2eb4bbfb649b058726ca75469d, type: 3}
-    sfxClip: {fileID: 0}
+    sfxClip: {fileID: 8300000, guid: 42c525ce80360994c985c38c7215a3b7, type: 3}
     sfxVolume: 1
     conditionKey: 
     conditionValue: 
@@ -198,7 +198,12 @@ MonoBehaviour:
     conditionKey: 
     conditionValue: 
     minigameSceneName: 
-    stageCommands: []
+    stageCommands:
+    - action: 2
+      character: {fileID: 11400000, guid: 5f46f435b99071d48b8cf6d311db3080, type: 2}
+      position: 3
+      expression: marah
+      flipX: 0
     choices: []
   - character: {fileID: 11400000, guid: 3b51b1c22931b8a4c867e012f9d2fefd, type: 2}
     speakerNameOverride: Gita
@@ -216,7 +221,7 @@ MonoBehaviour:
     - action: 0
       character: {fileID: 11400000, guid: 3b51b1c22931b8a4c867e012f9d2fefd, type: 2}
       position: 4
-      expression: netral
+      expression: cemas
       flipX: 1
     choices: []
   - character: {fileID: 11400000, guid: 5f46f435b99071d48b8cf6d311db3080, type: 2}
@@ -235,7 +240,7 @@ MonoBehaviour:
       character: {fileID: 11400000, guid: 5f46f435b99071d48b8cf6d311db3080, type: 2}
       position: 3
       expression: marah
-      flipX: 0
+      flipX: 1
     choices: []
   - character: {fileID: 11400000, guid: 3b51b1c22931b8a4c867e012f9d2fefd, type: 2}
     speakerNameOverride: Gita
@@ -266,7 +271,7 @@ MonoBehaviour:
     - action: 2
       character: {fileID: 11400000, guid: 5f46f435b99071d48b8cf6d311db3080, type: 2}
       position: 3
-      expression: netral
+      expression: cemas
       flipX: 0
     choices: []
   - character: {fileID: 11400000, guid: 5f46f435b99071d48b8cf6d311db3080, type: 2}
@@ -284,7 +289,7 @@ MonoBehaviour:
     - action: 2
       character: {fileID: 11400000, guid: 5f46f435b99071d48b8cf6d311db3080, type: 2}
       position: 3
-      expression: marah
+      expression: cemas
       flipX: 0
     choices: []
   - character: {fileID: 0}

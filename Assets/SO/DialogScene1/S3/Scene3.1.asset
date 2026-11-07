@@ -21,8 +21,8 @@ MonoBehaviour:
     isThought: 0
     expression: 
     backgroundOverride: {fileID: 0}
-    sfxClip: {fileID: 0}
-    sfxVolume: 1
+    sfxClip: {fileID: 8300000, guid: 42c525ce80360994c985c38c7215a3b7, type: 3}
+    sfxVolume: 0.779
     conditionKey: 
     conditionValue: 
     minigameSceneName: 
@@ -49,7 +49,12 @@ MonoBehaviour:
     conditionKey: 
     conditionValue: 
     minigameSceneName: 
-    stageCommands: []
+    stageCommands:
+    - action: 2
+      character: {fileID: 11400000, guid: 3b51b1c22931b8a4c867e012f9d2fefd, type: 2}
+      position: 3
+      expression: senyum
+      flipX: 0
     choices: []
   - character: {fileID: 11400000, guid: 3b51b1c22931b8a4c867e012f9d2fefd, type: 2}
     speakerNameOverride: Gita

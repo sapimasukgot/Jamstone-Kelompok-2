@@ -16,10 +16,10 @@ MonoBehaviour:
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   expressions:
   - expressionName: netral
-    sprite: {fileID: 7781202394294830402, guid: f1f87c7e80bc15645a925326e02e953c, type: 3}
+    sprite: {fileID: 21300000, guid: 8c22a1181c09cd347af043f264ca6188, type: 3}
   - expressionName: marah
-    sprite: {fileID: 8416243949045666254, guid: fab38da2cb84026479673a346c958215, type: 3}
-  - expressionName: Senyum
-    sprite: {fileID: -6950486346419376927, guid: ed296dc74393ef948a05a943b9fb943a, type: 3}
+    sprite: {fileID: 21300000, guid: a0837890a6ab4d54eb84a4e3610308e0, type: 3}
+  - expressionName: senyum
+    sprite: {fileID: 21300000, guid: 203e6df4eda65c54cb762bfe7f18b776, type: 3}
   - expressionName: cemas
-    sprite: {fileID: 6146782616825927046, guid: d9d0680364d7e3247916af26197105c8, type: 3}
+    sprite: {fileID: 21300000, guid: f0681b37048bea34fbaf23a215602748, type: 3}

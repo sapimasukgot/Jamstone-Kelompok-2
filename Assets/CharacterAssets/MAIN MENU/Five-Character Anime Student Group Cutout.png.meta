@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 468985ddc59212149a0664275a98c881
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6349318284220299477
+    second: Five-Character Anime Student Group Cutout_0
+  - first:
+      213: 6333160821205636600
+    second: Five-Character Anime Student Group Cutout_1
+  - first:
+      213: 1820794903229461777
+    second: Five-Character Anime Student Group Cutout_2
+  - first:
+      213: 7310286327714884485
+    second: Five-Character Anime Student Group Cutout_3
+  - first:
+      213: 2342809348518082617
+    second: Five-Character Anime Student Group Cutout_4
+  - first:
+      213: 2173947582044860648
+    second: Five-Character Anime Student Group Cutout_5
+  - first:
+      213: -638255028229737345
+    second: Five-Character Anime Student Group Cutout_6
+  - first:
+      213: 8395834415464622493
+    second: Five-Character Anime Student Group Cutout_7
+  - first:
+      213: -8177193728459264153
+    second: Five-Character Anime Student Group Cutout_8
+  - first:
+      213: 2010176344765494900
+    second: Five-Character Anime Student Group Cutout_9
+  - first:
+      213: -663796872526968297
+    second: Five-Character Anime Student Group Cutout_10
+  - first:
+      213: 6598739926243564757
+    second: Five-Character Anime Student Group Cutout_11
+  - first:
+      213: -2909697357176927193
+    second: Five-Character Anime Student Group Cutout_12
+  - first:
+      213: -8482973415015435208
+    second: Five-Character Anime Student Group Cutout_13
+  - first:
+      213: -8652477865263705839
+    second: Five-Character Anime Student Group Cutout_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Five-Character Anime Student Group Cutout_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1103
+        height: 1394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8f7d0e65f4d1850800000000000000
+      internalID: 6349318284220299477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Five-Character Anime Student Group Cutout_1
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 1393
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f5126d5638e3e750800000000000000
+      internalID: 6333160821205636600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Five-Character Anime Student Group Cutout_2
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1360
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11575d74153c44910800000000000000
+      internalID: 1820794903229461777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Five-Character Anime Student Group Cutout_3
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1364
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b27d9feaa537560800000000000000
+      internalID: 7310286327714884485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Five-Character Anime Student Group Cutout_4
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1371
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93872e290b4538020800000000000000
+      internalID: 2342809348518082617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Five-Character Anime Student Group Cutout_5
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1354
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e07a1ccec96b2e10800000000000000
+      internalID: 2173947582044860648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Five-Character Anime Student Group Cutout_6
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1353
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f747246fe667427f0800000000000000
+      internalID: -638255028229737345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Five-Character Anime Student Group Cutout_7
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 1353
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d99a4c6faeef38470800000000000000
+      internalID: 8395834415464622493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Five-Character Anime Student Group Cutout_8
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1345
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76f22abe0a5c48e80800000000000000
+      internalID: -8177193728459264153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Five-Character Anime Student Group Cutout_9
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 1338
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 476f3a53cb495eb10800000000000000
+      internalID: 2010176344765494900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Five-Character Anime Student Group Cutout_10
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1343
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ac30ae248b9c6f0800000000000000
+      internalID: -663796872526968297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Five-Character Anime Student Group Cutout_11
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1334
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc5fe4500f639b50800000000000000
+      internalID: 6598739926243564757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Five-Character Anime Student Group Cutout_12
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1328
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72c839d7badae97d0800000000000000
+      internalID: -2909697357176927193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Five-Character Anime Student Group Cutout_13
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 696
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8343ceeaf9c664a80800000000000000
+      internalID: -8482973415015435208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Five-Character Anime Student Group Cutout_14
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 416
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 111d60e69393ce780800000000000000
+      internalID: -8652477865263705839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Five-Character Anime Student Group Cutout_0: 6349318284220299477
+      Five-Character Anime Student Group Cutout_1: 6333160821205636600
+      Five-Character Anime Student Group Cutout_10: -663796872526968297
+      Five-Character Anime Student Group Cutout_11: 6598739926243564757
+      Five-Character Anime Student Group Cutout_12: -2909697357176927193
+      Five-Character Anime Student Group Cutout_13: -8482973415015435208
+      Five-Character Anime Student Group Cutout_14: -8652477865263705839
+      Five-Character Anime Student Group Cutout_2: 1820794903229461777
+      Five-Character Anime Student Group Cutout_3: 7310286327714884485
+      Five-Character Anime Student Group Cutout_4: 2342809348518082617
+      Five-Character Anime Student Group Cutout_5: 2173947582044860648
+      Five-Character Anime Student Group Cutout_6: -638255028229737345
+      Five-Character Anime Student Group Cutout_7: 8395834415464622493
+      Five-Character Anime Student Group Cutout_8: -8177193728459264153
+      Five-Character Anime Student Group Cutout_9: 2010176344765494900
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

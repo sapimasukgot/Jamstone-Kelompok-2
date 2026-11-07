@@ -17,11 +17,11 @@ MonoBehaviour:
   lines:
   - character: {fileID: 0}
     speakerNameOverride: 
-    dialogueText: ' SFX: Suara benturan keras ke dinding.'
+    dialogueText: ' '
     isThought: 0
     expression: 
-    backgroundOverride: {fileID: -8464843772531519362, guid: 96138311690c4f1478b68b65838b7f89, type: 3}
-    sfxClip: {fileID: 0}
+    backgroundOverride: {fileID: 2502215086801707522, guid: 50f28a2eb4bbfb649b058726ca75469d, type: 3}
+    sfxClip: {fileID: 8300000, guid: 859b1fe957303904a8a244d2cd902d83, type: 3}
     sfxVolume: 1
     conditionKey: 
     conditionValue: 
@@ -45,11 +45,10 @@ MonoBehaviour:
     choices: []
   - character: {fileID: 0}
     speakerNameOverride: 
-    dialogueText: 'SFX: Suara pukulan pelan diselingi tawa orang. Sprite Rico muncul
-      di kanan dan Radit muncul di kiri'
+    dialogueText: 
     isThought: 1
     expression: 
-    backgroundOverride: {fileID: 0}
+    backgroundOverride: {fileID: -4267878078730519213, guid: 5fab319b1a26d7d4d9a771fa81aef283, type: 3}
     sfxClip: {fileID: 0}
     sfxVolume: 1
     conditionKey: 
@@ -59,7 +58,7 @@ MonoBehaviour:
     - action: 0
       character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
       position: 1
-      expression: Panik
+      expression: cemas
       flipX: 0
     - action: 0
       character: {fileID: 11400000, guid: 5f46f435b99071d48b8cf6d311db3080, type: 2}
@@ -83,7 +82,7 @@ MonoBehaviour:
     choices: []
   - character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
     speakerNameOverride: Radit
-    dialogueText: T-tolong, Rico... Aku beneran enggak punya uang lagi...
+    dialogueText: T-tolong, Rico... Aku beneran nggak punya uang lagi...
     isThought: 0
     expression: 
     backgroundOverride: {fileID: 0}
@@ -119,7 +118,7 @@ MonoBehaviour:
       menganiaya Radit.
     isThought: 0
     expression: 
-    backgroundOverride: {fileID: 0}
+    backgroundOverride: {fileID: 2502215086801707522, guid: 50f28a2eb4bbfb649b058726ca75469d, type: 3}
     sfxClip: {fileID: 0}
     sfxVolume: 1
     conditionKey: 
@@ -134,17 +133,12 @@ MonoBehaviour:
     - action: 1
       character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
       position: 1
-      expression: Panik
-      flipX: 0
-    - action: 0
-      character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
-      position: 2
-      expression: netral
+      expression: cemas
       flipX: 0
     choices: []
   - character: {fileID: 0}
     speakerNameOverride: 
-    dialogueText: "CCTV di pojok atas kelas terlihat mati\u2014 lampu indikatornya
+    dialogueText: "CCTV di pojok atas kelas terlihat mati \u2014 lampu indikatornya
       padam. "
     isThought: 0
     expression: 
@@ -154,17 +148,7 @@ MonoBehaviour:
     conditionKey: 
     conditionValue: 
     minigameSceneName: 
-    stageCommands:
-    - action: 0
-      character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
-      position: 1
-      expression: a
-      flipX: 0
-    - action: 0
-      character: {fileID: 11400000, guid: 77df8e0996b6ffe48a13e4e758e35474, type: 2}
-      position: 3
-      expression: a
-      flipX: 0
+    stageCommands: []
     choices: []
   - character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
     speakerNameOverride: Tono
@@ -178,11 +162,11 @@ MonoBehaviour:
     conditionValue: 
     minigameSceneName: 
     stageCommands:
-    - action: 2
+    - action: 0
       character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
       position: 2
-      expression: cemas
-      flipX: 0
+      expression: marah
+      flipX: 1
     choices: []
   - character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
     speakerNameOverride: Tono
@@ -213,7 +197,7 @@ MonoBehaviour:
     - action: 1
       character: {fileID: 11400000, guid: 5f46f435b99071d48b8cf6d311db3080, type: 2}
       position: 2
-      expression: cemas
+      expression: marah
       flipX: 0
     choices:
     - choiceText: 'Minta Bantuan Aris '
@@ -228,7 +212,7 @@ MonoBehaviour:
     - choiceText: Minta Bantuan Faksi Kantin
       conditions:
       - key: gita_offer
-        value: terima
+        value: menerima
         mustNotEqual: 0
       nextDialogue: {fileID: 11400000, guid: 259562e9539438e4681b14f53bfdf086, type: 2}
       nextLineIndex: 0
@@ -240,7 +224,7 @@ MonoBehaviour:
       nextLineIndex: 0
       setFlagKey: jalur_aliansi
       setFlagValue: netral
-  fadeTransition: 1
+  fadeTransition: 0
   nextDialogue: {fileID: 0}
   conditionalNexts: []
   showEndCard: 0

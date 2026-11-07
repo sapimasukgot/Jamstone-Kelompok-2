@@ -61,7 +61,7 @@ MonoBehaviour:
     dialogueText: Pakai kecerdasanmu untuk jadi 'mata-mata' OSIS. Kumpulkan data
       dan bukti pelanggaran dari Faksi Olahraga dan Faksi Kantin. Bantu aku merapikan
       sekolah ini dari dalam.
-    isThought: 0
+    isThought: 1
     expression: 
     backgroundOverride: {fileID: 0}
     sfxClip: {fileID: 0}
@@ -75,7 +75,7 @@ MonoBehaviour:
     speakerNameOverride: Tono
     dialogueText: (Aris mau memanfaatkanku untuk mengintai dua faksi lain... Tapi
       kalau aku menolak, aku tidak punya siapa-siapa lagi untuk berlindung.)
-    isThought: 0
+    isThought: 1
     expression: 
     backgroundOverride: {fileID: 0}
     sfxClip: {fileID: 0}
@@ -86,11 +86,13 @@ MonoBehaviour:
     stageCommands: []
     choices:
     - choiceText: Terima Tawaran OSIS
+      conditions: []
       nextDialogue: {fileID: 11400000, guid: 265c66745bcf33347887cf413f12534f, type: 2}
       nextLineIndex: 0
       setFlagKey: osis_offer
       setFlagValue: terima
     - choiceText: Tolak Tawaran OSIS
+      conditions: []
       nextDialogue: {fileID: 11400000, guid: 13fc0ab92063d624da5248f1322ad292, type: 2}
       nextLineIndex: 0
       setFlagKey: osis_offer
@@ -98,3 +100,7 @@ MonoBehaviour:
   fadeTransition: 0
   nextDialogue: {fileID: 0}
   conditionalNexts: []
+  showEndCard: 0
+  endCardText: To Be Continued
+  endCardSfx: {fileID: 0}
+  endCardSfxVolume: 1

@@ -17,8 +17,8 @@ MonoBehaviour:
   lines:
   - character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
     speakerNameOverride: Tono
-    dialogueText: Begitu... Sayang sekali. Semoga kamu bisa bertahan hidup sendirian
-      di sini, Tono.
+    dialogueText: Begitu... Sayang sekali. Semoga kamu bisa bertahan sendirian di
+      sini, Tono.
     isThought: 0
     expression: 
     backgroundOverride: {fileID: 0}
@@ -27,11 +27,21 @@ MonoBehaviour:
     conditionKey: 
     conditionValue: 
     minigameSceneName: 
-    stageCommands: []
+    stageCommands:
+    - action: 2
+      character: {fileID: 11400000, guid: 183f836956bc50d48904bbf8b612ded2, type: 2}
+      position: 3
+      expression: marah
+      flipX: 1
+    - action: 2
+      character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
+      position: 1
+      expression: cemas
+      flipX: 1
     choices: []
   - character: {fileID: 0}
     speakerNameOverride: 
-    dialogueText: Fade out. Sprite Tono dan Aris hilang.
+    dialogueText: 
     isThought: 0
     expression: 
     backgroundOverride: {fileID: 0}
@@ -40,7 +50,12 @@ MonoBehaviour:
     conditionKey: 
     conditionValue: 
     minigameSceneName: 
-    stageCommands: []
+    stageCommands:
+    - action: 1
+      character: {fileID: 11400000, guid: 3b5617a48f58d8c4ca468e81a8bb0bd6, type: 2}
+      position: 1
+      expression: cemas
+      flipX: 0
     choices: []
   - character: {fileID: 0}
     speakerNameOverride: 
